@@ -1,9 +1,9 @@
-file_to_load = 'h:/Class Gitlab/uofm-virt-data-pt-09-2021-u-b/Election_Analysis/Resources/election_results.csv'
+#file_to_load = 'h:/Class Gitlab/uofm-virt-data-pt-09-2021-u-b/Election_Analysis/Resources/election_results.csv'
 # Add our dependencies.
 import csv
 import os
-print(os.getcwd)
-os.chdir('h:/Class Gitlab/uofm-virt-data-pt-09-2021-u-b/Election_Analysis/')
+#print(os.getcwd)
+#os.chdir('h:/Class Gitlab/uofm-virt-data-pt-09-2021-u-b/Election_Analysis/')
 # Assign a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path.
